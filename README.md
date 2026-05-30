@@ -24,6 +24,7 @@ Code is automatically synced via GitHub Actions, and this README updates itself 
 ### Arrays & Strings
 
 - [0001. Two Sum](./my-solutions/0001-two-sum) *(C)* — 🟩 Easy
+- [0448. Find All Numbers Disappeared in an Array](./my-solutions/0448-find-all-numbers-disappeared-in-an-array) *(JavaScript)* — 🟩 Easy
 - [0485. Max Consecutive Ones](./my-solutions/0485-max-consecutive-ones) *(C)* — 🟩 Easy
 - [0771. Jewels and Stones](./my-solutions/0771-jewels-and-stones) *(JavaScript)* — 🟩 Easy
 - [1365. How Many Numbers Are Smaller Than the Current Number](./my-solutions/1365-how-many-numbers-are-smaller-than-the-current-number) *(C)* — 🟩 Easy
@@ -35,6 +36,10 @@ Code is automatically synced via GitHub Actions, and this README updates itself 
 ### Binary Search
 
 - [0367. Valid Perfect Square](./my-solutions/0367-valid-perfect-square) *(C)* — 🟩 Easy
+
+### Bit Manipulation
+
+- [0645. Set Mismatch](./my-solutions/0645-set-mismatch) *(JavaScript)* — 🟩 Easy
 
 ### Linked Lists
 
@@ -59,10 +64,11 @@ Code is automatically synced via GitHub Actions, and this README updates itself 
 <!-- PROGRESS_TABLE_START -->
 | Topic | Solved | 🟩 Easy | 🟨 Medium | 🟥 Hard |
 | ----- | :----: | :-----: | :-------: | :-----: |
-| Arrays & Strings | 8 | 8 | 0 | 0 |
+| Arrays & Strings | 9 | 9 | 0 | 0 |
 | Binary Search | 1 | 1 | 0 | 0 |
+| Bit Manipulation | 1 | 1 | 0 | 0 |
 | Linked Lists | 3 | 1 | 2 | 0 |
 | Math & Geometry | 2 | 2 | 0 | 0 |
 | Two Pointers | 1 | 1 | 0 | 0 |
-| **Total** | **15** | **13** | **2** | **0** |
+| **Total** | **17** | **15** | **2** | **0** |
 <!-- PROGRESS_TABLE_END -->

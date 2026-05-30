@@ -148,5 +148,27 @@
   "fid:merge-strings-alternately": 1768,
   "fid:check-if-binary-string-has-at-most-one-segment-of-ones": 1784,
   "fid:check-if-the-sentence-is-pangram": 1832,
-  "fid:concatenation-of-array": 1929
+  "fid:concatenation-of-array": 1929,
+  "fid:find-all-numbers-disappeared-in-an-array": 448,
+  "fid:set-mismatch": 645,
+  "find-all-numbers-disappeared-in-an-array": {
+    "num": 448,
+    "title": "Find All Numbers Disappeared in an Array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  "set-mismatch": {
+    "num": 645,
+    "title": "Set Mismatch",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Bit Manipulation",
+      "Sorting"
+    ]
+  }
 }
