@@ -15,12 +15,12 @@ Code is automatically synced via GitHub Actions, and this README updates itself 
 
 - [0001. Two Sum](./my-solutions/0001-two-sum) *(C)* — 🟩 Easy
 - [0485. Max Consecutive Ones](./my-solutions/0485-max-consecutive-ones) *(C)* — 🟩 Easy
-- [0771. Jewels and Stones](./my-solutions/0782-jewels-and-stones) *(JavaScript)* — 🟩 Easy
-- [1365. How Many Numbers Are Smaller Than the Current Number](./my-solutions/1482-how-many-numbers-are-smaller-than-the-current-number) *(C)* — 🟩 Easy
-- [1470. Shuffle the Array](./my-solutions/1580-shuffle-the-array) *(C)* — 🟩 Easy
-- [1784. Check if Binary String Has at Most One Segment of Ones](./my-solutions/1910-check-if-binary-string-has-at-most-one-segment-of-ones) *(C)* — 🟩 Easy
-- [1832. Check if the Sentence Is Pangram](./my-solutions/1960-check-if-the-sentence-is-pangram) *(JavaScript)* — 🟩 Easy
-- [1929. Concatenation of Array](./my-solutions/2058-concatenation-of-array) *(C)* — 🟩 Easy
+- [0771. Jewels and Stones](./my-solutions/0771-jewels-and-stones) *(JavaScript)* — 🟩 Easy
+- [1365. How Many Numbers Are Smaller Than the Current Number](./my-solutions/1365-how-many-numbers-are-smaller-than-the-current-number) *(C)* — 🟩 Easy
+- [1470. Shuffle the Array](./my-solutions/1470-shuffle-the-array) *(C)* — 🟩 Easy
+- [1784. Check if Binary String Has at Most One Segment of Ones](./my-solutions/1784-check-if-binary-string-has-at-most-one-segment-of-ones) *(C)* — 🟩 Easy
+- [1832. Check if the Sentence Is Pangram](./my-solutions/1832-check-if-the-sentence-is-pangram) *(JavaScript)* — 🟩 Easy
+- [1929. Concatenation of Array](./my-solutions/1929-concatenation-of-array) *(C)* — 🟩 Easy
 
 ### Binary Search
 
@@ -39,7 +39,7 @@ Code is automatically synced via GitHub Actions, and this README updates itself 
 
 ### Two Pointers
 
-- [1768. Merge Strings Alternately](./my-solutions/1894-merge-strings-alternately) *(JavaScript)* — 🟩 Easy
+- [1768. Merge Strings Alternately](./my-solutions/1768-merge-strings-alternately) *(JavaScript)* — 🟩 Easy
 <!-- PROBLEM_INDEX_END -->
 
 ---
