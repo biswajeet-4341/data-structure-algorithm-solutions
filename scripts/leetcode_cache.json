@@ -1,1 +1,137 @@
-{}
+{
+  "two-sum": {
+    "num": 1,
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  "add-two-numbers": {
+    "num": 2,
+    "title": "Add Two Numbers",
+    "difficulty": "Medium",
+    "tags": [
+      "Linked List",
+      "Math",
+      "Recursion"
+    ]
+  },
+  "palindrome-number": {
+    "num": 9,
+    "title": "Palindrome Number",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ]
+  },
+  "roman-to-integer": {
+    "num": 13,
+    "title": "Roman to Integer",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "Math",
+      "String"
+    ]
+  },
+  "merge-two-sorted-lists": {
+    "num": 21,
+    "title": "Merge Two Sorted Lists",
+    "difficulty": "Easy",
+    "tags": [
+      "Linked List",
+      "Recursion"
+    ]
+  },
+  "rotate-list": {
+    "num": 61,
+    "title": "Rotate List",
+    "difficulty": "Medium",
+    "tags": [
+      "Linked List",
+      "Two Pointers"
+    ]
+  },
+  "valid-perfect-square": {
+    "num": 367,
+    "title": "Valid Perfect Square",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Binary Search"
+    ]
+  },
+  "max-consecutive-ones": {
+    "num": 485,
+    "title": "Max Consecutive Ones",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ]
+  },
+  "jewels-and-stones": {
+    "num": 771,
+    "title": "Jewels and Stones",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String"
+    ]
+  },
+  "how-many-numbers-are-smaller-than-the-current-number": {
+    "num": 1365,
+    "title": "How Many Numbers Are Smaller Than the Current Number",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting",
+      "Counting Sort"
+    ]
+  },
+  "shuffle-the-array": {
+    "num": 1470,
+    "title": "Shuffle the Array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ]
+  },
+  "merge-strings-alternately": {
+    "num": 1768,
+    "title": "Merge Strings Alternately",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers",
+      "String"
+    ]
+  },
+  "check-if-binary-string-has-at-most-one-segment-of-ones": {
+    "num": 1784,
+    "title": "Check if Binary String Has at Most One Segment of Ones",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ]
+  },
+  "check-if-the-sentence-is-pangram": {
+    "num": 1832,
+    "title": "Check if the Sentence Is Pangram",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String"
+    ]
+  },
+  "concatenation-of-array": {
+    "num": 1929,
+    "title": "Concatenation of Array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Simulation"
+    ]
+  }
+}
