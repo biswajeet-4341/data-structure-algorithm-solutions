@@ -1,7 +1,17 @@
 # 💻 Data Structure & Algorithm Solutions
+![CI](https://github.com/biswajeet-4341/data-structure-algorithm-solutions/actions/workflows/sync.yml/badge.svg)
+![CI](https://github.com/biswajeet-4341/data-structure-algorithm-solutions/actions/workflows/update-readme-v2.yml/badge.svg)
 
 A curated index of my competitive programming and algorithmic problem-solving progress.
 Code is automatically synced via GitHub Actions, and this README updates itself too.
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://leetcard.jacoblin.cool/mohapatrabiswajeet?theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://leetcard.jacoblin.cool/mohapatrabiswajeet?theme=default" />
+    <img src="https://leetcard.jacoblin.cool/mohapatrabiswajeet?theme=default" alt="LeetCode Stats" />
+  </picture>
+</div>
 
 - **Languages Used:** C, JavaScript
 - **LeetCode Profile:** [mohapatrabiswajeet](https://leetcode.com/u/mohapatrabiswajeet/)
