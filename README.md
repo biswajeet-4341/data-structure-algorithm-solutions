@@ -23,7 +23,7 @@ Code is automatically synced via GitHub Actions, and this README updates itself 
 <!-- PROBLEM_INDEX_START -->
 ### Arrays & Strings
 
-- [0001. Two Sum](./my-solutions/0001-two-sum) *(C)* — 🟩 Easy
+- [0001. Two Sum](./my-solutions/0001-two-sum) *(C, JavaScript)* — 🟩 Easy
 - [0448. Find All Numbers Disappeared in an Array](./my-solutions/0448-find-all-numbers-disappeared-in-an-array) *(JavaScript)* — 🟩 Easy
 - [0485. Max Consecutive Ones](./my-solutions/0485-max-consecutive-ones) *(C)* — 🟩 Easy
 - [0771. Jewels and Stones](./my-solutions/0771-jewels-and-stones) *(JavaScript)* — 🟩 Easy
