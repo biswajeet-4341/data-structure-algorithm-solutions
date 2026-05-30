@@ -1,19 +1,40 @@
 name: 📄 Auto-update README
 
-# Runs whenever a solution file is pushed to my-solutions/
+# ── Triggers ──────────────────────────────────────────────────────────────────
+#
+# 1. workflow_run  — fires automatically after your LeetCode sync finishes.
+#                    Change "Sync Leetcode" below to whatever your LC sync
+#                    workflow is actually named (check your Actions tab).
+#
+# 2. schedule      — runs every Sunday at 8 AM IST (2:30 AM UTC) as a backup,
+#                    in case the workflow_run trigger misses anything.
+#
+# 3. workflow_dispatch — lets you trigger it manually from the Actions tab
+#                        anytime you want an immediate update.
+#
 on:
-  push:
-    branches: [main]
-    paths:
-      - "my-solutions/**"
+  workflow_run:
+    workflows: ["Sync Leetcode"]   # ← CHANGE THIS to your LC sync workflow name
+    types: [completed]
 
+  schedule:
+    - cron: "30 2 * * 0"           # Every Sunday 8:00 AM IST
+
+  workflow_dispatch:               # Manual trigger from Actions tab
+
+# ── Job ───────────────────────────────────────────────────────────────────────
 jobs:
   update-readme:
     name: Rebuild Problem Index & Progress Table
     runs-on: ubuntu-latest
 
+    # Skip if triggered by workflow_run but that run failed
+    if: >
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
+
     permissions:
-      contents: write   # needed to push the updated README back
+      contents: write
 
     steps:
       - name: Checkout repo
@@ -35,6 +56,5 @@ jobs:
           git config --local user.name  "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md scripts/leetcode_cache.json
-          # Only commit if something actually changed
           git diff --staged --quiet || git commit -m "docs: auto-update README [skip ci]"
           git push
