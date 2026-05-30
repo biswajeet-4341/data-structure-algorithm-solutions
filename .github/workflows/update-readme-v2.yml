@@ -2,11 +2,11 @@ name: 📄 Auto-update README
 
 on:
   workflow_run:
-    workflows: ["Sync Leetcode"]   # ← change to your LC sync workflow's exact name
+    workflows: ["🖇️ Sync Leetcode"]
     types: [completed]
 
   schedule:
-    - cron: "30 2 * * 0"           # Every Sunday 8:00 AM IST
+    - cron: "30 2 * * 0"
 
   workflow_dispatch:
 
