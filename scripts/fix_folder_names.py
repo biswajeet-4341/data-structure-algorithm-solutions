@@ -7,9 +7,6 @@ LeetCode *frontend* problem number (the one shown on the website).
 The LeetCode sync tool sometimes writes the internal backend ID instead,
 e.g.  1580-shuffle-the-array  →  should be  1470-shuffle-the-array
 
-Run once to fix existing folders:
-    python scripts/fix_folder_names.py
-
 Also called automatically in the GitHub Actions workflow after every
 LeetCode sync, before update_readme.py runs.
 """
