@@ -42,10 +42,10 @@ TAG_CATEGORY = [
     (["Queue", "Monotonic Queue"],                  "Stack & Queue"),
     (["Heap (Priority Queue)"],                     "Heap / Priority Queue"),
     (["Greedy"],                                    "Greedy"),
-    (["Bit Manipulation"],                          "Bit Manipulation"),
     (["Math", "Geometry", "Number Theory"],         "Math & Geometry"),
     (["Array", "String", "Hash Table",
       "Sorting", "Matrix", "Prefix Sum"],           "Arrays & Strings"),
+    (["Bit Manipulation"],                          "Bit Manipulation"),
 ]
 
 DIFF_ICON = {"Easy": "🟩", "Medium": "🟨", "Hard": "🟥"}
@@ -135,6 +135,39 @@ def detect_languages(folder: Path) -> str:
     return ", ".join(langs) if langs else "Unknown"
 
 
+# ── Category override — reads a comment from the solution file ────────────────
+def read_category_override(folder: Path) -> str | None:
+    """
+    Scan solution files in *folder* for a manual category override comment.
+    Only the first contiguous comment block at the top of each file is checked.
+
+    Usage — add this as the very first line of your solution:
+      Python / Ruby    →  # CATEGORY: Arrays & Strings
+      JS / TS / C / C++ / Java / Go / Rust  →  // CATEGORY: Arrays & Strings
+
+    Returns the category string on the first match found, or None if absent.
+    """
+    comment_re = re.compile(
+        r"^(?:#|//)\s*CATEGORY\s*:\s*(.+)", re.IGNORECASE
+    )
+    for f in sorted(folder.iterdir()):          # deterministic order
+        if f.suffix.lower() not in LANG_MAP:
+            continue
+        try:
+            with f.open(encoding="utf-8") as fh:
+                for line in fh:
+                    stripped = line.strip()
+                    m = comment_re.match(stripped)
+                    if m:
+                        return m.group(1).strip()
+                    # stop scanning once we leave the header comment block
+                    if stripped and not stripped.startswith(("#", "//")):
+                        break
+        except (OSError, UnicodeDecodeError):
+            continue
+    return None
+
+
 def map_category(tags: list) -> str:
     for keys, label in TAG_CATEGORY:
         if any(t in keys for t in tags):
@@ -210,7 +243,14 @@ def main():
         if not info:
             continue
 
-        cat = map_category(info["tags"])
+        # Manual override takes priority over tag-based classification
+        override = read_category_override(folder)
+        if override:
+            print(f"  📌 Override for {slug}: {override}")
+            cat = override
+        else:
+            cat = map_category(info["tags"])
+
         by_cat.setdefault(cat, []).append({
             "num":        info["num"],       # real LC number from API
             "title":      info["title"],
