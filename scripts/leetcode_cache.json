@@ -170,5 +170,67 @@
       "Bit Manipulation",
       "Sorting"
     ]
+  },
+  "fid:fizz-buzz": 412,
+  "fid:number-of-steps-to-reduce-a-number-to-zero": 1342,
+  "fid:build-an-array-with-stack-operations": 1441,
+  "fid:running-sum-of-1d-array": 1480,
+  "fid:richest-customer-wealth": 1672,
+  "fid:root-equals-sum-of-children": 2236,
+  "fizz-buzz": {
+    "num": 412,
+    "title": "Fizz Buzz",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "String",
+      "Simulation"
+    ]
+  },
+  "number-of-steps-to-reduce-a-number-to-zero": {
+    "num": 1342,
+    "title": "Number of Steps to Reduce a Number to Zero",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Bit Manipulation"
+    ]
+  },
+  "build-an-array-with-stack-operations": {
+    "num": 1441,
+    "title": "Build an Array With Stack Operations",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Stack",
+      "Simulation"
+    ]
+  },
+  "running-sum-of-1d-array": {
+    "num": 1480,
+    "title": "Running Sum of 1d Array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Prefix Sum"
+    ]
+  },
+  "richest-customer-wealth": {
+    "num": 1672,
+    "title": "Richest Customer Wealth",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Matrix"
+    ]
+  },
+  "root-equals-sum-of-children": {
+    "num": 2236,
+    "title": "Root Equals Sum of Children",
+    "difficulty": "Easy",
+    "tags": [
+      "Tree",
+      "Binary Tree"
+    ]
   }
 }
