@@ -1,3 +1,5 @@
+// CATEGORY: Bit Manipulation
+
 /**
  * @param {number} num
  * @return {number}
