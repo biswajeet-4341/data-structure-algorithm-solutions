@@ -40,6 +40,10 @@ Code is automatically synced via GitHub Actions, and this README updates itself 
 
 - [0367. Valid Perfect Square](./my-solutions/0367-valid-perfect-square) *(C)* — 🟩 Easy
 
+### Bit Manipulation
+
+- [1342. Number of Steps to Reduce a Number to Zero](./my-solutions/1342-number-of-steps-to-reduce-a-number-to-zero) *(JavaScript)* — 🟩 Easy
+
 ### Linked Lists
 
 - [0002. Add Two Numbers](./my-solutions/0002-add-two-numbers) *(C)* — 🟨 Medium
@@ -51,7 +55,6 @@ Code is automatically synced via GitHub Actions, and this README updates itself 
 - [0009. Palindrome Number](./my-solutions/0009-palindrome-number) *(C)* — 🟩 Easy
 - [0013. Roman to Integer](./my-solutions/0013-roman-to-integer) *(C)* — 🟩 Easy
 - [0412. Fizz Buzz](./my-solutions/0412-fizz-buzz) *(JavaScript)* — 🟩 Easy
-- [1342. Number of Steps to Reduce a Number to Zero](./my-solutions/1342-number-of-steps-to-reduce-a-number-to-zero) *(JavaScript)* — 🟩 Easy
 
 ### Stack & Queue
 
@@ -75,8 +78,9 @@ Code is automatically synced via GitHub Actions, and this README updates itself 
 | ----- | :----: | :-----: | :-------: | :-----: |
 | Arrays & Strings | 12 | 12 | 0 | 0 |
 | Binary Search | 1 | 1 | 0 | 0 |
+| Bit Manipulation | 1 | 1 | 0 | 0 |
 | Linked Lists | 3 | 1 | 2 | 0 |
-| Math & Geometry | 4 | 4 | 0 | 0 |
+| Math & Geometry | 3 | 3 | 0 | 0 |
 | Stack & Queue | 1 | 0 | 1 | 0 |
 | Trees | 1 | 1 | 0 | 0 |
 | Two Pointers | 1 | 1 | 0 | 0 |
