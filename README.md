@@ -56,6 +56,10 @@ Code is automatically synced via GitHub Actions, and this README updates itself 
 - [0013. Roman to Integer](./my-solutions/0013-roman-to-integer) *(C)* — 🟩 Easy
 - [0412. Fizz Buzz](./my-solutions/0412-fizz-buzz) *(JavaScript)* — 🟩 Easy
 
+### Other
+
+- [0386. Lexicographical Numbers](./my-solutions/0386-lexicographical-numbers) *(JavaScript)* — 🟨 Medium
+
 ### Stack & Queue
 
 - [1441. Build an Array With Stack Operations](./my-solutions/1441-build-an-array-with-stack-operations) *(JavaScript)* — 🟨 Medium
@@ -81,8 +85,9 @@ Code is automatically synced via GitHub Actions, and this README updates itself 
 | Bit Manipulation | 1 | 1 | 0 | 0 |
 | Linked Lists | 3 | 1 | 2 | 0 |
 | Math & Geometry | 3 | 3 | 0 | 0 |
+| Other | 1 | 0 | 1 | 0 |
 | Stack & Queue | 1 | 0 | 1 | 0 |
 | Trees | 1 | 1 | 0 | 0 |
 | Two Pointers | 1 | 1 | 0 | 0 |
-| **Total** | **23** | **20** | **3** | **0** |
+| **Total** | **24** | **20** | **4** | **0** |
 <!-- PROGRESS_TABLE_END -->

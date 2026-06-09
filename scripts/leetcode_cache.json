@@ -232,5 +232,15 @@
       "Tree",
       "Binary Tree"
     ]
+  },
+  "fid:lexicographical-numbers": 386,
+  "lexicographical-numbers": {
+    "num": 386,
+    "title": "Lexicographical Numbers",
+    "difficulty": "Medium",
+    "tags": [
+      "Depth-First Search",
+      "Trie"
+    ]
   }
 }
